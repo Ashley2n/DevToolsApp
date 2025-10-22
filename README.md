@@ -67,46 +67,29 @@ A comprehensive developer and designer toolkit built with Next.js and AWS Amplif
 ### Installation
 
 1.  **Clone the repository**
-    
+    `   git clone   cd color-tools-suite   `
 
-bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone   cd color-tools-suite   `
-
-1.  **Install dependencies**
-    
-
-bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npm install   `
+2.  **Install dependencies**
+    `   npm install   `
 
 1.  **Configure Amplify**
-    
-
-bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   amplify init  amplify add auth  amplify add api  amplify add storage  amplify push   `
+    ``
+   amplify init 
+   amplify add auth
+   amplify add api
+   amplify add storage
+   amplify push   ``
 
 1.  **Run development server**
-    
-
-bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npm run dev   `
+    `   npm run dev   `
 
 1.  **Deploy to production**
-    
-
-bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   amplify publish   `
+     `   amplify publish   `
 
 📁 Project Structure
 --------------------
-
-text
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   src/  ├── app/                    # Next.js App Router  ├── components/  │   ├── ui/                # Reusable UI components  │   ├── color-picker/      # Color management tools  │   ├── password-tools/    # Password generator & vault  │   └── lorem-ipsum/       # Text generator  ├── lib/                   # Utilities & configurations  ├── contexts/              # React Context providers  ├── hooks/                 # Custom React hooks  └── styles/                # Global styles   `
+                        src/  ├── app/
+  # Next.js App Router  ├── components/  │   ├── ui/                # Reusable UI components  │   ├── color-picker/      # Color management tools  │   ├── password-tools/    # Password generator & vault  │   └── lorem-ipsum/       # Text generator  ├── lib/                   # Utilities & configurations  ├── contexts/              # React Context providers  ├── hooks/                 # Custom React hooks  └── styles/                # Global styles   `
 
 🛠️ Technology Stack
 --------------------
@@ -189,8 +172,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 ### Environment Variables
 
 env
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   AMPLIFY_PROJECT_NAME=color-tools-suite  AMPLIFY_ENV=production  NEXT_PUBLIC_APP_VERSION=1.0.0   `
+`   AMPLIFY_PROJECT_NAME=color-tools-suite  AMPLIFY_ENV=production  NEXT_PUBLIC_APP_VERSION=1.0.0   `
 
 ### AWS Services Configuration
 
