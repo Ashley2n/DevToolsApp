@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ColorPicker } from "./components/ColorPicker/ColorPicker";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold text-zinc-900 dark:text-white sm:text-6xl">
           Welcome to <span className="text-blue-600 inline-block"> Dev Tools</span>
         </h1>
+        <ColorPicker/>
       </main>
     </div>
   );
